@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#C7ECB4;
+    font-family: "Baskervville SC", serif;
+}
+.contain{
+    background-color: #C2B5BA;
+        margin:0 auto;
+        max-width:1000px;
+        padding:20px;
+        border:solid black 2px;
+}
+.my-image{
+    height:100px;
+    width:120px;
+    border: 3px solid #C7ECB4;
+    border-radius:50%;
+    float:left;
+
+}
+.name{
+    float:left;
+    margin-top:90px;
+}
+.hover:hover{
+    color:red;
+}
+.contact{
+    float:right;
+   padding:20px;
+   font-size:19px
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color:#764824;
+}
+.contact ul li a{
+   
+    color:#764824;
+    text-decoration:none;
+
+}
+.contact ul li a:hover{
+   
+    color:tomato;
+}
+.contact ul li {  
+    list-style-type:none;
+}
+.div-clear{
+    clear:both;
+}
+#hr-header{
+    margin:20px auto;
+    border:3px solid black;
+    width:100%;
+    border-bottom:none;
+}
+/*-------------------
+Main section start
+-------------------*/
+
+.left-div{
+    width:30%;
+    float:left;
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+.right-div{
+    width:70%;
+    float:left;
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+.hr-tag{
+   border: 1px solid black;
+   border-bottom:none;
+   width:100%;
+   margin:0 auto;
+}
+.div-35{
+    width:35%;
+    float:left;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align:justify;
+    margin-left:-30px;
+}
+#comment{
+    float:left;
+    margin-left:6px;
+}
+#send{
+    margin-left:3px;
+    background-color:blue;
+    color:white;
+    padding:7px;
+     
+}
+#send:hover{
+    background-color:red;
+}
+.id a{
+    text-decoration:none;
+    font-size:18px;
+    color:white;
+    
+    
+}
+.id{
+    text-align:center;
+    background-color:#F2B03D;
+    border:2px solid black;
+    width:80px;
+   margin-top:8px;
+   padding:8px;
+}
+.id:hover{
+    
+    background-color:#B44410;
+   
+}
+/*-------------------
+Main section end
+-------------------*/
+
+/*-------------------
+Footer section start
+-------------------*/
+.footer{
+    background-color:black;
+    text-align:center;
+}
+.footer a{
+    margin:20px;
+    text-decoration:none;
+    color:white;
+}
+.footer p{
+    margin-top:10px;
+    color:white;
+    padding:5px;
+
+}
+.red:hover{
+  color:red;
+}
+.f:hover{
+    color:blue;
+}
+.w:hover{
+    color:green;
+}
